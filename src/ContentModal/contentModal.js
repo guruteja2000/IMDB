@@ -66,6 +66,7 @@ export default function ContentModal({children, media_type, id}) {
     useEffect(()=>{
         fetchData();
         fetchVideo();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[]);
 
     return (

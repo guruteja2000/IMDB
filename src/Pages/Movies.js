@@ -1,4 +1,4 @@
-import { useState, useEffect, Fragment } from "react";
+import { useState, useEffect} from "react";
 import Genere from '../Generes/Genere'
 import Content from "../content/content";
 import Custompagination from "../pagination/Custompagination";

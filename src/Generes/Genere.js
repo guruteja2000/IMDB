@@ -39,6 +39,7 @@ const Genere =({
         return ()=>{
             setgeneres({});
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[]);
 
     return(
